@@ -13,3 +13,6 @@ body{
 a,p,h1,div{
   color: black;
 }
+*{
+  background-color: white;
+}
