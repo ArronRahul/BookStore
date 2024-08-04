@@ -1,10 +1,10 @@
 import React from 'react'
 import fildata from '../../public/list.json'
 import Cards from './Cards'
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
 export default function Coursepage() {
- 
+
 
   return (
     <>
@@ -23,10 +23,9 @@ export default function Coursepage() {
             consequatur!
           </p>
           <Link to='/'>
-          
-          <button className='mt-6 bg-pink-500 text-white px-4 py-1 rounded-md hover:bg-pink-700 duration-300'>
-            Back
-          </button>
+            <button className='mt-6 bg-pink-500 text-white px-4 py-1 rounded-md hover:bg-pink-700 duration-300'>
+              Back
+            </button>
           </Link>
         </div>
         <div className='mt-12 grid grid-cols-1 md:grid-cols-4'>
